@@ -45,7 +45,7 @@
         
       </div>
     
-  </div>
+ 
   <div class="appBottomMenu" style="background: #f8f8f8;">
         <router-link class="nav-link" to="/" class="item active" style="font-size: 9px; letter-spacing: 0; text-align: center; width: 100%; height: 56px; line-height: 1.2em; display: flex; align-items: center; justify-content: center; position: relative;">
             <div class="col">  
@@ -78,6 +78,7 @@
             </div>
        </router-link>
     </div>
+     </div>
 </template>
 
 <script>
