@@ -4,7 +4,7 @@ import 'bootstrap.min.js';
 import 'owl.carousel.min.js';
 
 <template>
-	<div id="appCapsule">
+    <div id="appCapsule">
         <div id="loader">
             <div class="spinner-border text-primary" role="status"></div>   
         </div>
@@ -15,10 +15,7 @@ import 'owl.carousel.min.js';
                 <!-- Balance -->
                 <div class="balance" style="margin-bottom: 0px !important;">
                     <div class="left">
-                        <div class="l-wrapper u-pr--16 u-pl--16 u-pt--32" id="list"><div class="">
-            <span class="title">Bitcoin</span>
-							<h1 class="total"><span style="font-family: sans-serif;">₹ </span>41,98,874</h1>
-    </div></div>
+                        <div class="l-wrapper u-pr--16 u-pl--16 u-pt--32" id="list"></div>
                     </div><div class="right">
                         
                            <svg data-toggle="modal" style="cursor: pointer;" data-target="#depositActionSheet" width="56" height="56" viewBox="0 0 64 64" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" version="1.1">
@@ -36,14 +33,12 @@ import 'owl.carousel.min.js';
                 <!-- Wallet Footer -->
                
                 <!-- * Wallet Footer -->
-            <div class="wallet-footer"> <p style="margin-right: 12px;font-size: 14px;margin-top: 2px;">Updated: 2021-05-12, 1:31 PM</p> 
-    <div class="u-text--subtle u-text--xs u-text--right"><span class="badge badge-danger">-4.91%</span></div>
-    </div></div>
+            </div>
         </div>
         <!-- Wallet Card -->
 
         <!-- Deposit Action Sheet -->
-        <div class="modal fade modalbox" id="depositActionSheet" tabindex="-1" role="dialog" style="display: none;" aria-hidden="true">
+        <div class="modal fade modalbox" id="depositActionSheet" tabindex="-1" role="dialog">
             <div class="modal-dialog" role="document">
                 <div class="modal-content">
                     <div class="modal-header">
@@ -52,76 +47,7 @@ import 'owl.carousel.min.js';
                     </div>
                     <div class="modal-body" style="padding: 0px !important;">
                         <div class="section mt-2" id="list1" style="padding: 0 1px !important; margin-top: 0px !important;">
-                        <div class="card" id="container"><div id="result" class="u-pt--16 u-pb--16 c-chart-card">
-		<div class="c-chart-card__hidden" style="display: none;">
-			<svg class="chart" width="400" height="80" stroke-width="2" stroke="var(--primary)" fill="var(--primarySubtle)"></svg>
-		</div>
-		<span class="tooltip" hidden="true"></span>
-	</div><table class="table rounded"><thead>
-			<tr><th scope="col">Currency</th><th scope="col">Date</th><th scope="col" class="text-right">Value</th></tr>
-		</thead><tbody><tr class="">
-			<th scope="row">Bitcoin</th><td>2021-05-11</td><td class="text-right text-primary">$56737.84</td>
-			</tr><tr class="">
-			<th scope="row">Bitcoin</th><td>2021-05-10</td><td class="text-right text-primary">$55862.21</td>
-			</tr><tr class="">
-			<th scope="row">Bitcoin</th><td>2021-05-09</td><td class="text-right text-primary">$58290.33</td>
-			</tr><tr class="">
-			<th scope="row">Bitcoin</th><td>2021-05-08</td><td class="text-right text-primary">$58940.03</td>
-			</tr><tr class="">
-			<th scope="row">Bitcoin</th><td>2021-05-07</td><td class="text-right text-primary">$57351.07</td>
-			</tr><tr class="">
-			<th scope="row">Bitcoin</th><td>2021-05-06</td><td class="text-right text-primary">$56437.98</td>
-			</tr><tr class="">
-			<th scope="row">Bitcoin</th><td>2021-05-05</td><td class="text-right text-primary">$57501.21</td>
-			</tr><tr class="">
-			<th scope="row">Bitcoin</th><td>2021-05-04</td><td class="text-right text-primary">$53240.34</td>
-			</tr><tr class="">
-			<th scope="row">Bitcoin</th><td>2021-05-03</td><td class="text-right text-primary">$57189.48</td>
-			</tr><tr class="">
-			<th scope="row">Bitcoin</th><td>2021-05-02</td><td class="text-right text-primary">$56608.80</td>
-			</tr><tr class="">
-			<th scope="row">Bitcoin</th><td>2021-05-01</td><td class="text-right text-primary">$57836.01</td>
-			</tr><tr class="">
-			<th scope="row">Bitcoin</th><td>2021-04-30</td><td class="text-right text-primary">$57736.86</td>
-			</tr><tr class="">
-			<th scope="row">Bitcoin</th><td>2021-04-29</td><td class="text-right text-primary">$53579.96</td>
-			</tr><tr class="">
-			<th scope="row">Bitcoin</th><td>2021-04-28</td><td class="text-right text-primary">$54877.70</td>
-			</tr><tr class="">
-			<th scope="row">Bitcoin</th><td>2021-04-27</td><td class="text-right text-primary">$55066.08</td>
-			</tr><tr class="">
-			<th scope="row">Bitcoin</th><td>2021-04-26</td><td class="text-right text-primary">$54069.51</td>
-			</tr><tr class="">
-			<th scope="row">Bitcoin</th><td>2021-04-25</td><td class="text-right text-primary">$49128.24</td>
-			</tr><tr class="">
-			<th scope="row">Bitcoin</th><td>2021-04-24</td><td class="text-right text-primary">$50123.74</td>
-			</tr><tr class="">
-			<th scope="row">Bitcoin</th><td>2021-04-23</td><td class="text-right text-primary">$51161.15</td>
-			</tr><tr class="">
-			<th scope="row">Bitcoin</th><td>2021-04-22</td><td class="text-right text-primary">$51722.13</td>
-			</tr><tr class="">
-			<th scope="row">Bitcoin</th><td>2021-04-21</td><td class="text-right text-primary">$53812.07</td>
-			</tr><tr class="">
-			<th scope="row">Bitcoin</th><td>2021-04-20</td><td class="text-right text-primary">$56499.28</td>
-			</tr><tr class="">
-			<th scope="row">Bitcoin</th><td>2021-04-19</td><td class="text-right text-primary">$55668.23</td>
-			</tr><tr class="">
-			<th scope="row">Bitcoin</th><td>2021-04-18</td><td class="text-right text-primary">$56232.38</td>
-			</tr><tr class="">
-			<th scope="row">Bitcoin</th><td>2021-04-17</td><td class="text-right text-primary">$60023.51</td>
-			</tr><tr class="">
-			<th scope="row">Bitcoin</th><td>2021-04-16</td><td class="text-right text-primary">$61394.89</td>
-			</tr><tr class="">
-			<th scope="row">Bitcoin</th><td>2021-04-15</td><td class="text-right text-primary">$63223.77</td>
-			</tr><tr class="">
-			<th scope="row">Bitcoin</th><td>2021-04-14</td><td class="text-right text-primary">$62954.59</td>
-			</tr><tr class="">
-			<th scope="row">Bitcoin</th><td>2021-04-13</td><td class="text-right text-primary">$63564.83</td>
-			</tr><tr class="">
-			<th scope="row">Bitcoin</th><td>2021-04-12</td><td class="text-right text-primary">$59856.71</td>
-			</tr><tr class="">
-			<th scope="row">Bitcoin</th><td>2021-04-11</td><td class="text-right text-primary">$59990.87</td>
-			</tr></tbody></table></div></div>
+                        </div>
                          
                     </div>
                 </div>
@@ -296,7 +222,7 @@ import 'owl.carousel.min.js';
                                         <label class="label" for="text11d">To</label>
                                         <input type="email" class="form-control" id="text11d" placeholder="Enter IBAN">
                                         <i class="clear-input">
-                                            <ion-icon name="close-circle" role="img" class="md hydrated" aria-label="close circle"></ion-icon>
+                                            <ion-icon name="close-circle"></ion-icon>
                                         </i>
                                     </div>
                                 </div>
@@ -312,7 +238,8 @@ import 'owl.carousel.min.js';
                                 </div>
 
                                 <div class="form-group basic">
-                                    <button type="button" class="btn btn-primary btn-block btn-lg" data-dismiss="modal">Send</button>
+                                    <button type="button" class="btn btn-primary btn-block btn-lg"
+                                        data-dismiss="modal">Send</button>
                                 </div>
                             </form>
                         </div>
@@ -323,27 +250,27 @@ import 'owl.carousel.min.js';
         <!-- * Withdraw Action Sheet -->
 
         <!-- Send Action Sheet -->
-        <div class="modal fade action-sheet" id="technical-analysis" tabindex="-1" role="dialog" aria-hidden="true" style="display: none;">
+        <div class="modal fade action-sheet" id="technical-analysis" tabindex="-1" role="dialog">
             <div class="modal-dialog" role="document">
                 <div class="modal-content">
                     <div class="modal-header">
                         <h5 class="modal-title">Technical Analysis</h5>
                     </div>
                     <div class="modal-body" style="height: 400px;">
-                    <iframe id="settings" style="height: 435px;" src="https://s.tradingview.com/embed-widget/technical-analysis/?locale=in#%7B%22interval%22%3A%221m%22%2C%22width%22%3A425%2C%22isTransparent%22%3Afalse%2C%22height%22%3A450%2C%22symbol%22%3A%22BITFINEX%3ABTCINR%22%2C%22showIntervalTabs%22%3Atrue%2C%22colorTheme%22%3A%22light%22%2C%22utm_source%22%3A%22in.tradingview.com%22%2C%22utm_medium%22%3A%22widget_new%22%2C%22utm_campaign%22%3A%22technical-analysis%22%7D"></iframe>
+                    <iframe id="settings" style="height: 435px;"src="https://s.tradingview.com/embed-widget/technical-analysis/?locale=in#%7B%22interval%22%3A%221m%22%2C%22width%22%3A425%2C%22isTransparent%22%3Afalse%2C%22height%22%3A450%2C%22symbol%22%3A%22BITFINEX%3ABTCINR%22%2C%22showIntervalTabs%22%3Atrue%2C%22colorTheme%22%3A%22light%22%2C%22utm_source%22%3A%22in.tradingview.com%22%2C%22utm_medium%22%3A%22widget_new%22%2C%22utm_campaign%22%3A%22technical-analysis%22%7D"></iframe>
                     </div>
                 </div>
             </div>
         </div>
 
-        <div class="modal fade action-sheet" id="technical-analysiseth" tabindex="-1" role="dialog" aria-hidden="true" style="display: none;">
+        <div class="modal fade action-sheet" id="technical-analysiseth" tabindex="-1" role="dialog">
             <div class="modal-dialog" role="document">
                 <div class="modal-content">
                     <div class="modal-header">
                         <h5 class="modal-title">Technical Analysis</h5>
                     </div>
                     <div class="modal-body" style="height: 400px;">
-                    <iframe id="settings" style="height: 435px;" src="https://s.tradingview.com/embed-widget/technical-analysis/?locale=in#%7B%22interval%22%3A%221m%22%2C%22width%22%3A425%2C%22isTransparent%22%3Afalse%2C%22height%22%3A450%2C%22symbol%22%3A%22BITFINEX%3AETHINR%22%2C%22showIntervalTabs%22%3Atrue%2C%22colorTheme%22%3A%22light%22%2C%22utm_source%22%3A%22in.tradingview.com%22%2C%22utm_medium%22%3A%22widget_new%22%2C%22utm_campaign%22%3A%22technical-analysis%22%7D"></iframe>
+                    <iframe id="settings" style="height: 435px;"src="https://s.tradingview.com/embed-widget/technical-analysis/?locale=in#%7B%22interval%22%3A%221m%22%2C%22width%22%3A425%2C%22isTransparent%22%3Afalse%2C%22height%22%3A450%2C%22symbol%22%3A%22BITFINEX%3AETHINR%22%2C%22showIntervalTabs%22%3Atrue%2C%22colorTheme%22%3A%22light%22%2C%22utm_source%22%3A%22in.tradingview.com%22%2C%22utm_medium%22%3A%22widget_new%22%2C%22utm_campaign%22%3A%22technical-analysis%22%7D"></iframe>
                     </div>
                 </div>
             </div>
@@ -356,7 +283,7 @@ import 'owl.carousel.min.js';
                         <h5 class="modal-title">Technical Analysis</h5>
                     </div>
                     <div class="modal-body" style="height: 400px;">
-                    <iframe id="settings" style="height: 435px;" src="https://s.tradingview.com/embed-widget/technical-analysis/?locale=in#%7B%22interval%22%3A%221m%22%2C%22width%22%3A425%2C%22isTransparent%22%3Afalse%2C%22height%22%3A450%2C%22symbol%22%3A%22BITFINEX%3ALTCINR%22%2C%22showIntervalTabs%22%3Atrue%2C%22colorTheme%22%3A%22light%22%2C%22utm_source%22%3A%22in.tradingview.com%22%2C%22utm_medium%22%3A%22widget_new%22%2C%22utm_campaign%22%3A%22technical-analysis%22%7D"></iframe>
+                    <iframe id="settings" style="height: 435px;"src="https://s.tradingview.com/embed-widget/technical-analysis/?locale=in#%7B%22interval%22%3A%221m%22%2C%22width%22%3A425%2C%22isTransparent%22%3Afalse%2C%22height%22%3A450%2C%22symbol%22%3A%22BITFINEX%3ALTCINR%22%2C%22showIntervalTabs%22%3Atrue%2C%22colorTheme%22%3A%22light%22%2C%22utm_source%22%3A%22in.tradingview.com%22%2C%22utm_medium%22%3A%22widget_new%22%2C%22utm_campaign%22%3A%22technical-analysis%22%7D"></iframe>
                     </div>
                 </div>
             </div>
@@ -369,7 +296,7 @@ import 'owl.carousel.min.js';
                         <h5 class="modal-title">Technical Analysis</h5>
                     </div>
                     <div class="modal-body" style="height: 400px;">
-                    <iframe id="settings" style="height: 435px;" src="https://s.tradingview.com/embed-widget/technical-analysis/?locale=in#%7B&quot;interval&quot;%3A&quot;1m&quot;%2C&quot;width&quot;%3A425%2C&quot;isTransparent&quot;%3Afalse%2C&quot;height&quot;%3A450%2C&quot;symbol&quot;%3A&quot;XRPINR&quot;%2C&quot;showIntervalTabs&quot;%3Atrue%2C&quot;colorTheme&quot;%3A&quot;light&quot;%2C&quot;utm_source&quot;%3A&quot;in.tradingview.com&quot;%2C&quot;utm_medium&quot;%3A&quot;widget_new&quot;%2C&quot;utm_campaign&quot;%3A&quot;technical-analysis&quot;%7D"></iframe>
+                    <iframe id="settings" style="height: 435px;"src='https://s.tradingview.com/embed-widget/technical-analysis/?locale=in#%7B"interval"%3A"1m"%2C"width"%3A425%2C"isTransparent"%3Afalse%2C"height"%3A450%2C"symbol"%3A"XRPINR"%2C"showIntervalTabs"%3Atrue%2C"colorTheme"%3A"light"%2C"utm_source"%3A"in.tradingview.com"%2C"utm_medium"%3A"widget_new"%2C"utm_campaign"%3A"technical-analysis"%7D'></iframe>
                     </div>
                 </div>
             </div>
@@ -382,7 +309,7 @@ import 'owl.carousel.min.js';
                         <h5 class="modal-title">Technical Analysis</h5>
                     </div>
                     <div class="modal-body" style="height: 400px;">
-                    <iframe id="settings" style="height: 435px;" src="https://s.tradingview.com/embed-widget/technical-analysis/?locale=in#%7B%22interval%22%3A%221m%22%2C%22width%22%3A425%2C%22isTransparent%22%3Afalse%2C%22height%22%3A450%2C%22symbol%22%3A%22KRAKEN%3AUSDTUSD%22%2C%22showIntervalTabs%22%3Atrue%2C%22colorTheme%22%3A%22light%22%2C%22utm_source%22%3A%22in.tradingview.com%22%2C%22utm_medium%22%3A%22widget_new%22%2C%22utm_campaign%22%3A%22technical-analysis%22%7D"></iframe>
+                    <iframe id="settings" style="height: 435px;"src='https://s.tradingview.com/embed-widget/technical-analysis/?locale=in#%7B%22interval%22%3A%221m%22%2C%22width%22%3A425%2C%22isTransparent%22%3Afalse%2C%22height%22%3A450%2C%22symbol%22%3A%22KRAKEN%3AUSDTUSD%22%2C%22showIntervalTabs%22%3Atrue%2C%22colorTheme%22%3A%22light%22%2C%22utm_source%22%3A%22in.tradingview.com%22%2C%22utm_medium%22%3A%22widget_new%22%2C%22utm_campaign%22%3A%22technical-analysis%22%7D'></iframe>
                     </div>
                 </div>
             </div>
@@ -410,16 +337,16 @@ import 'owl.carousel.min.js';
                 <div class="card-body">
                     <ul class="nav nav-tabs style1" role="tablist">
                         <li class="nav-item">
-                            <a class="nav-link" data-toggle="tab" href="#overview" role="tab" aria-selected="false">Trending
+                            <a class="nav-link active" data-toggle="tab" href="#overview" role="tab" aria-selected="true">Trending
 </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" data-toggle="tab" href="#card" role="tab" aria-selected="true">Losers</a>
+                            <a class="nav-link" data-toggle="tab" href="#card" role="tab" aria-selected="false">Losers</a>
                         </li>
                         
                     </ul>
                     <div class="tab-content mt-1">
-                        <div class="tab-pane fade" id="overview" role="tabpanel"><table class="table rounded"><thead>
+                        <div class="tab-pane fade active show" id="overview" role="tabpanel"><table class="table rounded"><thead>
 			<tr>
                                 <th scope="col">Currency</th>
                                 <th scope="col">Last 7 Days</th>
@@ -430,38 +357,38 @@ import 'owl.carousel.min.js';
     <tr class="">
 			<th scope="row">Ethereum</th>
             <td style="padding: 0px;"><img src="https://www.coingecko.com/coins/279/sparkline" style="width: 94px;height: 43px;"></td>
-                                <td class="text-right text-primary" id="value1"><span style="font-family: sans-serif;">₹</span>3,15,476</td>
+                                <td class="text-right text-primary" id="value1">----</td>
             </tr><tr class=""><th scope="row">Litecoin</th>
                 <td style="padding: 0px;"><img src="https://www.coingecko.com/coins/2/sparkline" style="width: 94px;height: 43px;"></td>
-                                <td class="text-right text-primary" id="value3"><span style="font-family: sans-serif;">₹</span>28,046</td>
+                                <td class="text-right text-primary" id="value3">----</td>
             </tr><tr class=""><th scope="row">Sora</th> 
                 <td style="padding: 0px;"><img src="https://www.coingecko.com/coins/11093/sparkline" style="width: 94px;height: 43px;"></td>
-                                <td class="text-right text-primary" id="value2"><span style="font-family: sans-serif;">₹</span>45,756</td>
+                                <td class="text-right text-primary" id="value2">----</td>
             </tr><tr class=""> <th scope="row">Gnosis</th>
                 <td style="padding: 0px;"><img src="https://www.coingecko.com/coins/662/sparkline" style="width: 94px;height: 43px;"></td>
-                                <td class="text-right text-primary" id="value4"><span style="font-family: sans-serif;">₹</span>20,091</td>
+                                <td class="text-right text-primary" id="value4">----</td>
             </tr><tr class=""><th scope="row">Aave</th>
                 <td style="padding: 0px;"><img src="https://www.coingecko.com/coins/12645/sparkline" style="width: 94px;height: 43px;"></td> 
-                                <td class="text-right text-primary" id="value5"><span style="font-family: sans-serif;">₹</span>38,022</td>
+                                <td class="text-right text-primary" id="value5">----</td>
             </tr><tr class=""><th scope="row">Dash</th>
                 <td style="padding: 0px;"><img src="https://www.coingecko.com/coins/19/sparkline" style="width: 94px;height: 43px;"></td>
-                                <td class="text-right text-primary" id="value6"><span style="font-family: sans-serif;">₹</span>30,194</td>
+                                <td class="text-right text-primary" id="value6">----</td>
             </tr><tr class=""><th scope="row">Monero</th>
                 <td style="padding: 0px;"><img src="https://www.coingecko.com/coins/69/sparkline" style="width: 94px;height: 43px;"></td>
-                                <td class="text-right text-primary" id="value7"><span style="font-family: sans-serif;">₹</span>33,323</td>
+                                <td class="text-right text-primary" id="value7">----</td>
             </tr><tr class=""><th scope="row">sETH</th>
                 <td style="padding: 0px;"><img src="https://www.coingecko.com/coins/8843/sparkline" style="width: 94px;height: 43px;"></td>
-                                <td class="text-right text-primary" id="value9"><span style="font-family: sans-serif;">₹</span>3,27,204</td>
+                                <td class="text-right text-primary" id="value9">----</td>
             </tr><tr class=""><th scope="row">Maker</th>
                 <td style="padding: 0px;"><img src="https://www.coingecko.com/coins/1364/sparkline" style="width: 94px;height: 43px;"></td>
-                                <td class="text-right text-primary" id="value8"><span style="font-family: sans-serif;">₹</span>4,12,228</td>
+                                <td class="text-right text-primary" id="value8">----</td>
             </tr><tr class=""><th scope="row">Kusama</th>
                 <td style="padding: 0px;"><img src="https://www.coingecko.com/coins/9568/sparkline" style="width: 94px;height: 43px;"></td>
-                                <td class="text-right text-primary" id="value10"><span style="font-family: sans-serif;">₹</span>33,948</td>
+                                <td class="text-right text-primary" id="value10">----</td>
                             
 			</tr>
     </tbody></table></div>
-                        <div class="tab-pane fade active show" id="card" role="tabpanel">
+                        <div class="tab-pane fade" id="card" role="tabpanel">
                             <table class="table rounded"><thead>
                                 <tr>
                                                     <th scope="col">Currency</th>
@@ -473,34 +400,34 @@ import 'owl.carousel.min.js';
                         <tr class="">
 <th scope="row">Tether</th>
 <td style="padding: 0px;"><img src="https://www.coingecko.com/coins/325/sparkline" style="width: 94px;height: 43px;"></td>
-                    <td class="text-right text-primary" id="value11"><span style="font-family: sans-serif;">₹</span>73</td>
+                    <td class="text-right text-primary" id="value11">----</td>
 </tr><tr class=""><th scope="row">Uniswap</th>
     <td style="padding: 0px;"><img src="https://www.coingecko.com/coins/12504/sparkline" style="width: 94px;height: 43px;"></td>
-                    <td class="text-right text-primary" id="value12"><span style="font-family: sans-serif;">₹</span>3,154</td>
+                    <td class="text-right text-primary" id="value12">----</td>
 </tr><tr class=""><th scope="row">Dai</th> 
     <td style="padding: 0px;"><img src="https://www.coingecko.com/coins/9956/sparkline" style="width: 94px;height: 43px;"></td>
-                    <td class="text-right text-primary" id="value13"><span style="font-family: sans-serif;">₹</span>74</td>
+                    <td class="text-right text-primary" id="value13">----</td>
 </tr><tr class=""> <th scope="row">Sushi</th>
     <td style="padding: 0px;"><img src="https://www.coingecko.com/coins/12271/sparkline" style="width: 94px;height: 43px;"></td>
-                    <td class="text-right text-primary" id="value14"><span style="font-family: sans-serif;">₹</span>1,306</td>
+                    <td class="text-right text-primary" id="value14">----</td>
 </tr><tr class=""><th scope="row">Ampleforth</th>
     <td style="padding: 0px;"><img src="https://www.coingecko.com/coins/4708/sparkline" style="width: 94px;height: 43px;"></td> 
-                    <td class="text-right text-primary" id="value15"><span style="font-family: sans-serif;">₹</span>73</td>
+                    <td class="text-right text-primary" id="value15">----</td>
 </tr><tr class=""><th scope="row">FunFair</th>
     <td style="padding: 0px;"><img src="https://www.coingecko.com/coins/761/sparkline" style="width: 94px;height: 43px;"></td>
-                    <td class="text-right text-primary" id="value16"><span style="font-family: sans-serif;">₹</span>3</td>
+                    <td class="text-right text-primary" id="value16">----</td>
 </tr><tr class=""><th scope="row">Vitae</th>
     <td style="padding: 0px;"><img src="https://www.coingecko.com/coins/5504/sparkline" style="width: 94px;height: 43px;"></td>
-                    <td class="text-right text-primary" id="value17"><span style="font-family: sans-serif;">₹</span>123</td>
+                    <td class="text-right text-primary" id="value17">----</td>
 </tr><tr class=""><th scope="row">Tokenlon</th>
     <td style="padding: 0px;"><img src="https://www.coingecko.com/coins/13454/sparkline" style="width: 94px;height: 43px;"></td>
-                    <td class="text-right text-primary" id="value18"><span style="font-family: sans-serif;">₹</span>430</td>
+                    <td class="text-right text-primary" id="value18">----</td>
 </tr><tr class=""><th scope="row">Edgeware</th>
     <td style="padding: 0px;"><img src="https://www.coingecko.com/coins/8452/sparkline" style="width: 94px;height: 43px;"></td>
-                    <td class="text-right text-primary" id="value19"><span style="font-family: sans-serif;">₹</span>1</td>
+                    <td class="text-right text-primary" id="value19">----</td>
 </tr><tr class=""><th scope="row">Unibright</th>
     <td style="padding: 0px;"><img src="https://www.coingecko.com/coins/2707/sparkline" style="width: 94px;height: 43px;"></td>
-                    <td class="text-right text-primary" id="value20"><span style="font-family: sans-serif;">₹</span>133</td>
+                    <td class="text-right text-primary" id="value20">----</td>
                 
 </tr>
     </tbody></table>
@@ -532,7 +459,7 @@ import 'owl.carousel.min.js';
                         </div>
                     </div>
                     <div class="right">
-                        <div class="price" id="btcpre">41.39<span style="font-family: sans-serif;">%</span></div>
+                        <div class="price" id="btcpre"></div>
                     </div>
                 </a>
                 <!-- * item -->
@@ -546,7 +473,7 @@ import 'owl.carousel.min.js';
                         </div>
                     </div>
                     <div class="right">
-                        <div class="price" id="ethpre">19.24<span style="font-family: sans-serif;">%</span></div>
+                        <div class="price" id="ethpre"></div>
                     </div>
                 </a>
              
@@ -561,7 +488,7 @@ import 'owl.carousel.min.js';
                         </div>
                     </div>
                     <div class="right">
-                        <div class="price" id="xrppre">2.65<span style="font-family: sans-serif;">%</span></div>
+                        <div class="price" id="xrppre"></div>
                     </div>
                 </a>
                  <!-- * item -->
@@ -575,12 +502,12 @@ import 'owl.carousel.min.js';
                         </div>
                     </div>
                     <div class="right">
-                        <div class="price" id="usdtpre">2.23<span style="font-family: sans-serif;">%</span></div>
+                        <div class="price" id="usdtpre"></div>
                     </div>
-                
+                </merahai>
                 <!-- * item -->
                 <!-- item -->
-                </a><a href="#" class="item" data-toggle="modal" data-target="#technical-analysisltc">
+                <a href="#" class="item" data-toggle="modal" data-target="#technical-analysisltc">
                     <div class="detail">
                         <img src="https://s3.us-east-2.amazonaws.com/nomics-api/static/images/currencies/ltc.svg" alt="img" class="image-block imaged w48">
                         <div>
@@ -589,7 +516,7 @@ import 'owl.carousel.min.js';
                         </div>
                     </div>
                     <div class="right">
-                        <div class="price" id="ltcpre">0.98<span style="font-family: sans-serif;">%</span></div>
+                        <div class="price" id="ltcpre"></div>
                     </div>
                 </a>
                 <!-- * item -->
@@ -605,168 +532,98 @@ import 'owl.carousel.min.js';
                 <h2 class="title">Send Money</h2>
                 <a href="javascript:;" class="link">Add New</a>
             </div>
-            <div class="shadowfix carousel-small owl-carousel owl-theme owl-loaded owl-drag">
+            <div class="shadowfix carousel-small owl-carousel owl-theme">
                 <!-- item -->
-                
-                <!-- * item -->
-                <!-- item -->
-                
-                <!-- * item -->
-                <!-- item -->
-                
-                <!-- * item -->
-                <!-- item -->
-                
-                <!-- * item -->
-                <!-- item -->
-                
-                <!-- * item -->
-                <!-- item -->
-                
-                <!-- * item -->
-                <!-- item -->
-                
-                <!-- * item -->
-                <!-- item -->
-                
-                <!-- * item -->
-                <!-- item -->
-                
-                <!-- * item -->
-            <div class="owl-stage-outer"><div class="owl-stage" style="transform: translate3d(-1033px, 0px, 0px); transition: all 0.25s ease 0s; width: 1575px; padding-left: 32px; padding-right: 32px;"><div class="owl-item cloned" style="width: 71.5px; margin-right: 8px;"><div class="item">
-                    <a href="#">
-                        <div class="user-card">
-                            <img src="https://finapp.bragherstudio.com/view2/assets/img/sample/avatar/avatar6.jpg" alt="img" class="imaged w-48">
-                            <strong>Maria</strong>
-                        </div>
-                    </a>
-                </div></div><div class="owl-item cloned" style="width: 71.5px; margin-right: 8px;"><div class="item">
-                    <a href="#">
-                        <div class="user-card">
-                            <img src="https://finapp.bragherstudio.com/view2/assets/img/sample/avatar/avatar7.jpg" alt="img" class="imaged w-48">
-                            <strong>Pamela</strong>
-                        </div>
-                    </a>
-                </div></div><div class="owl-item cloned" style="width: 71.5px; margin-right: 8px;"><div class="item">
-                    <a href="#">
-                        <div class="user-card">
-                            <img src="https://finapp.bragherstudio.com/view2/assets/img/sample/avatar/avatar8.jpg" alt="img" class="imaged w-48">
-                            <strong>Neville</strong>
-                        </div>
-                    </a>
-                </div></div><div class="owl-item cloned" style="width: 71.5px; margin-right: 8px;"><div class="item">
-                    <a href="#">
-                        <div class="user-card">
-                            <img src="https://finapp.bragherstudio.com/view2/assets/img/sample/avatar/avatar9.jpg" alt="img" class="imaged w-48">
-                            <strong>Alex</strong>
-                        </div>
-                    </a>
-                </div></div><div class="owl-item cloned" style="width: 71.5px; margin-right: 8px;"><div class="item">
-                    <a href="#">
-                        <div class="user-card">
-                            <img src="https://finapp.bragherstudio.com/view2/assets/img/sample/avatar/avatar10.jpg" alt="img" class="imaged w-48">
-                            <strong>Stina</strong>
-                        </div>
-                    </a>
-                </div></div><div class="owl-item" style="width: 71.5px; margin-right: 8px;"><div class="item">
+                <div class="item">
                     <a href="#">
                         <div class="user-card">
                             <img src="https://finapp.bragherstudio.com/view2/assets/img/sample/avatar/avatar2.jpg" alt="img" class="imaged w-48">
                             <strong>Jurrien</strong>
                         </div>
                     </a>
-                </div></div><div class="owl-item" style="width: 71.5px; margin-right: 8px;"><div class="item">
+                </div>
+                <!-- * item -->
+                <!-- item -->
+                <div class="item">
                     <a href="#">
                         <div class="user-card">
                             <img src="https://finapp.bragherstudio.com/view2/assets/img/sample/avatar/avatar3.jpg" alt="img" class="imaged w-48">
                             <strong>Elwin</strong>
                         </div>
                     </a>
-                </div></div><div class="owl-item" style="width: 71.5px; margin-right: 8px;"><div class="item">
+                </div>
+                <!-- * item -->
+                <!-- item -->
+                <div class="item">
                     <a href="#">
                         <div class="user-card">
                             <img src="https://finapp.bragherstudio.com/view2/assets/img/sample/avatar/avatar4.jpg" alt="img" class="imaged w-48">
                             <strong>Alma</strong>
                         </div>
                     </a>
-                </div></div><div class="owl-item" style="width: 71.5px; margin-right: 8px;"><div class="item">
+                </div>
+                <!-- * item -->
+                <!-- item -->
+                <div class="item">
                     <a href="#">
                         <div class="user-card">
                             <img src="https://finapp.bragherstudio.com/view2/assets/img/sample/avatar/avatar5.jpg" alt="img" class="imaged w-48">
                             <strong>Justine</strong>
                         </div>
                     </a>
-                </div></div><div class="owl-item" style="width: 71.5px; margin-right: 8px;"><div class="item">
+                </div>
+                <!-- * item -->
+                <!-- item -->
+                <div class="item">
                     <a href="#">
                         <div class="user-card">
                             <img src="https://finapp.bragherstudio.com/view2/assets/img/sample/avatar/avatar6.jpg" alt="img" class="imaged w-48">
                             <strong>Maria</strong>
                         </div>
                     </a>
-                </div></div><div class="owl-item" style="width: 71.5px; margin-right: 8px;"><div class="item">
+                </div>
+                <!-- * item -->
+                <!-- item -->
+                <div class="item">
                     <a href="#">
                         <div class="user-card">
                             <img src="https://finapp.bragherstudio.com/view2/assets/img/sample/avatar/avatar7.jpg" alt="img" class="imaged w-48">
                             <strong>Pamela</strong>
                         </div>
                     </a>
-                </div></div><div class="owl-item" style="width: 71.5px; margin-right: 8px;"><div class="item">
+                </div>
+                <!-- * item -->
+                <!-- item -->
+                <div class="item">
                     <a href="#">
                         <div class="user-card">
                             <img src="https://finapp.bragherstudio.com/view2/assets/img/sample/avatar/avatar8.jpg" alt="img" class="imaged w-48">
                             <strong>Neville</strong>
                         </div>
                     </a>
-                </div></div><div class="owl-item" style="width: 71.5px; margin-right: 8px;"><div class="item">
+                </div>
+                <!-- * item -->
+                <!-- item -->
+                <div class="item">
                     <a href="#">
                         <div class="user-card">
                             <img src="https://finapp.bragherstudio.com/view2/assets/img/sample/avatar/avatar9.jpg" alt="img" class="imaged w-48">
                             <strong>Alex</strong>
                         </div>
                     </a>
-                </div></div><div class="owl-item active" style="width: 71.5px; margin-right: 8px;"><div class="item">
+                </div>
+                <!-- * item -->
+                <!-- item -->
+                <div class="item">
                     <a href="#">
                         <div class="user-card">
                             <img src="https://finapp.bragherstudio.com/view2/assets/img/sample/avatar/avatar10.jpg" alt="img" class="imaged w-48">
                             <strong>Stina</strong>
                         </div>
                     </a>
-                </div></div><div class="owl-item cloned active" style="width: 71.5px; margin-right: 8px;"><div class="item">
-                    <a href="#">
-                        <div class="user-card">
-                            <img src="https://finapp.bragherstudio.com/view2/assets/img/sample/avatar/avatar2.jpg" alt="img" class="imaged w-48">
-                            <strong>Jurrien</strong>
-                        </div>
-                    </a>
-                </div></div><div class="owl-item cloned active" style="width: 71.5px; margin-right: 8px;"><div class="item">
-                    <a href="#">
-                        <div class="user-card">
-                            <img src="https://finapp.bragherstudio.com/view2/assets/img/sample/avatar/avatar3.jpg" alt="img" class="imaged w-48">
-                            <strong>Elwin</strong>
-                        </div>
-                    </a>
-                </div></div><div class="owl-item cloned active" style="width: 71.5px; margin-right: 8px;"><div class="item">
-                    <a href="#">
-                        <div class="user-card">
-                            <img src="https://finapp.bragherstudio.com/view2/assets/img/sample/avatar/avatar4.jpg" alt="img" class="imaged w-48">
-                            <strong>Alma</strong>
-                        </div>
-                    </a>
-                </div></div><div class="owl-item cloned" style="width: 71.5px; margin-right: 8px;"><div class="item">
-                    <a href="#">
-                        <div class="user-card">
-                            <img src="https://finapp.bragherstudio.com/view2/assets/img/sample/avatar/avatar5.jpg" alt="img" class="imaged w-48">
-                            <strong>Justine</strong>
-                        </div>
-                    </a>
-                </div></div><div class="owl-item cloned" style="width: 71.5px; margin-right: 8px;"><div class="item">
-                    <a href="#">
-                        <div class="user-card">
-                            <img src="https://finapp.bragherstudio.com/view2/assets/img/sample/avatar/avatar6.jpg" alt="img" class="imaged w-48">
-                            <strong>Maria</strong>
-                        </div>
-                    </a>
-                </div></div></div></div><div class="owl-nav disabled"><button type="button" role="presentation" class="owl-prev"><span aria-label="Previous">‹</span></button><button type="button" role="presentation" class="owl-next"><span aria-label="Next">›</span></button></div><div class="owl-dots disabled"></div></div>
+                </div>
+                <!-- * item -->
+            </div>
         </div>
         <!-- * Send Money -->
 
@@ -776,43 +633,9 @@ import 'owl.carousel.min.js';
                 <h2 class="title">Monthly Bills</h2>
                 <a href="app-bills.html" class="link">View All</a>
             </div>
-            <div class="carousel-multiple owl-carousel owl-theme shadowfix owl-loaded owl-drag">
+            <div class="carousel-multiple owl-carousel owl-theme shadowfix">
                 <!-- item -->
-                
-                <!-- * item -->
-                <!-- item -->
-                
-                <!-- * item -->
-                <!-- item -->
-                
-                <!-- * item -->
-                <!-- item -->
-                
-                <!-- * item -->
-            <div class="owl-stage-outer"><div class="owl-stage" style="transform: translate3d(-342px, 0px, 0px); transition: all 0s ease 0s; width: 1432px; padding-left: 32px; padding-right: 32px;"><div class="owl-item cloned" style="width: 155px; margin-right: 16px;"><div class="item">
-                    <div class="bill-box">
-                        <div class="img-wrapper">
-                            <div class="iconbox bg-danger">
-                                <ion-icon name="medkit-outline" role="img" class="md hydrated" aria-label="medkit outline"></ion-icon>
-                            </div>
-                        </div>
-                        <div class="price">$ 299</div>
-                        <p>Monthly Health Insurance</p>
-                        <a href="#" class="btn btn-primary btn-block btn-sm">PAY NOW</a>
-                    </div>
-                </div></div><div class="owl-item cloned" style="width: 155px; margin-right: 16px;"><div class="item">
-                    <div class="bill-box">
-                        <div class="img-wrapper">
-                            <div class="iconbox">
-                                <ion-icon name="card-outline" role="img" class="md hydrated" aria-label="card outline"></ion-icon>
-                            </div>
-                        </div>
-                        <div class="price">$ 962</div>
-                        <p>Credit Card Statement
-                        </p>
-                        <a href="#" class="btn btn-primary btn-block btn-sm">PAY NOW</a>
-                    </div>
-                </div></div><div class="owl-item active" style="width: 155px; margin-right: 16px;"><div class="item">
+                <div class="item">
                     <div class="bill-box">
                         <div class="img-wrapper">
                             <img src="https://finapp.bragherstudio.com/view2/assets/img/sample/brand/1.jpg" alt="img" class="image-block imaged w48">
@@ -821,7 +644,10 @@ import 'owl.carousel.min.js';
                         <p>Prime Monthly Subscription</p>
                         <a href="#" class="btn btn-primary btn-block btn-sm">PAY NOW</a>
                     </div>
-                </div></div><div class="owl-item active" style="width: 155px; margin-right: 16px;"><div class="item">
+                </div>
+                <!-- * item -->
+                <!-- item -->
+                <div class="item">
                     <div class="bill-box">
                         <div class="img-wrapper">
                             <img src="https://finapp.bragherstudio.com/view2/assets/img/sample/brand/2.jpg" alt="img" class="image-block imaged w48">
@@ -830,22 +656,28 @@ import 'owl.carousel.min.js';
                         <p>Music Monthly Subscription</p>
                         <a href="#" class="btn btn-primary btn-block btn-sm">PAY NOW</a>
                     </div>
-                </div></div><div class="owl-item" style="width: 155px; margin-right: 16px;"><div class="item">
+                </div>
+                <!-- * item -->
+                <!-- item -->
+                <div class="item">
                     <div class="bill-box">
                         <div class="img-wrapper">
                             <div class="iconbox bg-danger">
-                                <ion-icon name="medkit-outline" role="img" class="md hydrated" aria-label="medkit outline"></ion-icon>
+                                <ion-icon name="medkit-outline"></ion-icon>
                             </div>
                         </div>
                         <div class="price">$ 299</div>
                         <p>Monthly Health Insurance</p>
                         <a href="#" class="btn btn-primary btn-block btn-sm">PAY NOW</a>
                     </div>
-                </div></div><div class="owl-item" style="width: 155px; margin-right: 16px;"><div class="item">
+                </div>
+                <!-- * item -->
+                <!-- item -->
+                <div class="item">
                     <div class="bill-box">
                         <div class="img-wrapper">
                             <div class="iconbox">
-                                <ion-icon name="card-outline" role="img" class="md hydrated" aria-label="card outline"></ion-icon>
+                                <ion-icon name="card-outline"></ion-icon>
                             </div>
                         </div>
                         <div class="price">$ 962</div>
@@ -853,25 +685,9 @@ import 'owl.carousel.min.js';
                         </p>
                         <a href="#" class="btn btn-primary btn-block btn-sm">PAY NOW</a>
                     </div>
-                </div></div><div class="owl-item cloned" style="width: 155px; margin-right: 16px;"><div class="item">
-                    <div class="bill-box">
-                        <div class="img-wrapper">
-                            <img src="https://finapp.bragherstudio.com/view2/assets/img/sample/brand/1.jpg" alt="img" class="image-block imaged w48">
-                        </div>
-                        <div class="price">$ 14</div>
-                        <p>Prime Monthly Subscription</p>
-                        <a href="#" class="btn btn-primary btn-block btn-sm">PAY NOW</a>
-                    </div>
-                </div></div><div class="owl-item cloned" style="width: 155px; margin-right: 16px;"><div class="item">
-                    <div class="bill-box">
-                        <div class="img-wrapper">
-                            <img src="https://finapp.bragherstudio.com/view2/assets/img/sample/brand/2.jpg" alt="img" class="image-block imaged w48">
-                        </div>
-                        <div class="price">$ 9</div>
-                        <p>Music Monthly Subscription</p>
-                        <a href="#" class="btn btn-primary btn-block btn-sm">PAY NOW</a>
-                    </div>
-                </div></div></div></div><div class="owl-nav disabled"><button type="button" role="presentation" class="owl-prev"><span aria-label="Previous">‹</span></button><button type="button" role="presentation" class="owl-next"><span aria-label="Next">›</span></button></div><div class="owl-dots disabled"></div></div>
+                </div>
+                <!-- * item -->
+            </div>
         </div>
         <!-- * Monthly Bills -->
 
@@ -893,7 +709,8 @@ import 'owl.carousel.min.js';
                         <div class="price">$ 499</div>
                     </div>
                     <div class="progress">
-                        <div class="progress-bar" role="progressbar" style="width: 85%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">85%</div>
+                        <div class="progress-bar" role="progressbar" style="width: 85%;" aria-valuenow="85"
+                            aria-valuemin="0" aria-valuemax="100">85%</div>
                     </div>
                 </div>
                 <!-- * item -->
@@ -907,7 +724,8 @@ import 'owl.carousel.min.js';
                         <div class="price">$ 100,000</div>
                     </div>
                     <div class="progress">
-                        <div class="progress-bar" role="progressbar" style="width: 55%;" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100">55%</div>
+                        <div class="progress-bar" role="progressbar" style="width: 55%;" aria-valuenow="55"
+                            aria-valuemin="0" aria-valuemax="100">55%</div>
                     </div>
                 </div>
                 <!-- * item -->
@@ -921,7 +739,8 @@ import 'owl.carousel.min.js';
                         <div class="price">$ 42,500</div>
                     </div>
                     <div class="progress">
-                        <div class="progress-bar" role="progressbar" style="width: 15%;" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100">15%</div>
+                        <div class="progress-bar" role="progressbar" style="width: 15%;" aria-valuenow="15"
+                            aria-valuemin="0" aria-valuemax="100">15%</div>
                     </div>
                 </div>
                 <!-- * item -->
@@ -954,7 +773,7 @@ import 'owl.carousel.min.js';
                 
                 <!-- * item -->
 
-            <div class="owl-stage-outer"><div class="owl-stage" style="transition: all 0s ease 0s; width: 2800px; padding-left: 32px; padding-right: 32px; transform: translate3d(-684px, 0px, 0px);"><div class="owl-item cloned" style="width: 155px; margin-right: 16px;"><div class="item">
+            <div class="owl-stage-outer"><div class="owl-stage" style="transition: all 0.25s ease 0s; width: 1468px; padding-left: 32px; padding-right: 32px; transform: translate3d(-526px, 0px, 0px);"><div class="owl-item cloned" style="width: 159.5px; margin-right: 16px;"><div class="item">
                     <a href="app-blog-post.html">
                         <div class="blog-card">
                             <img src="https://finapp.bragherstudio.com/view2/assets/img/sample/photo/3.jpg" alt="image" class="imaged w-100">
@@ -963,7 +782,7 @@ import 'owl.carousel.min.js';
                             </div>
                         </div>
                     </a>
-                </div></div><div class="owl-item cloned" style="width: 155px; margin-right: 16px;"><div class="item">
+                </div></div><div class="owl-item cloned" style="width: 159.5px; margin-right: 16px;"><div class="item">
                     <a href="app-blog-post.html">
                         <div class="blog-card">
                             <img src="https://finapp.bragherstudio.com/view2/assets/img/sample/photo/4.jpg" alt="image" class="imaged w-100">
@@ -972,7 +791,7 @@ import 'owl.carousel.min.js';
                             </div>
                         </div>
                     </a>
-                </div></div><div class="owl-item cloned" style="width: 155px; margin-right: 16px;"><div class="item">
+                </div></div><div class="owl-item" style="width: 159.5px; margin-right: 16px;"><div class="item">
                     <a href="app-blog-post.html">
                         <div class="blog-card">
                             <img src="https://finapp.bragherstudio.com/view2/assets/img/sample/photo/1.jpg" alt="image" class="imaged w-100">
@@ -981,7 +800,7 @@ import 'owl.carousel.min.js';
                             </div>
                         </div>
                     </a>
-                </div></div><div class="owl-item cloned" style="width: 155px; margin-right: 16px;"><div class="item">
+                </div></div><div class="owl-item active" style="width: 159.5px; margin-right: 16px;"><div class="item">
                     <a href="app-blog-post.html">
                         <div class="blog-card">
                             <img src="https://finapp.bragherstudio.com/view2/assets/img/sample/photo/2.jpg" alt="image" class="imaged w-100">
@@ -990,25 +809,7 @@ import 'owl.carousel.min.js';
                             </div>
                         </div>
                     </a>
-                </div></div><div class="owl-item active" style="width: 155px; margin-right: 16px;"><div class="item">
-                    <a href="app-blog-post.html">
-                        <div class="blog-card">
-                            <img src="https://finapp.bragherstudio.com/view2/assets/img/sample/photo/1.jpg" alt="image" class="imaged w-100">
-                            <div class="text">
-                                <h4 class="title">What will be the value of bitcoin in the next...</h4>
-                            </div>
-                        </div>
-                    </a>
-                </div></div><div class="owl-item active" style="width: 155px; margin-right: 16px;"><div class="item">
-                    <a href="app-blog-post.html">
-                        <div class="blog-card">
-                            <img src="https://finapp.bragherstudio.com/view2/assets/img/sample/photo/2.jpg" alt="image" class="imaged w-100">
-                            <div class="text">
-                                <h4 class="title">Rules you need to know in business</h4>
-                            </div>
-                        </div>
-                    </a>
-                </div></div><div class="owl-item" style="width: 155px; margin-right: 16px;"><div class="item">
+                </div></div><div class="owl-item active" style="width: 159.5px; margin-right: 16px;"><div class="item">
                     <a href="app-blog-post.html">
                         <div class="blog-card">
                             <img src="https://finapp.bragherstudio.com/view2/assets/img/sample/photo/3.jpg" alt="image" class="imaged w-100">
@@ -1017,7 +818,7 @@ import 'owl.carousel.min.js';
                             </div>
                         </div>
                     </a>
-                </div></div><div class="owl-item" style="width: 155px; margin-right: 16px;"><div class="item">
+                </div></div><div class="owl-item" style="width: 159.5px; margin-right: 16px;"><div class="item">
                     <a href="app-blog-post.html">
                         <div class="blog-card">
                             <img src="https://finapp.bragherstudio.com/view2/assets/img/sample/photo/4.jpg" alt="image" class="imaged w-100">
@@ -1026,25 +827,7 @@ import 'owl.carousel.min.js';
                             </div>
                         </div>
                     </a>
-                </div></div><div class="owl-item cloned" style="width: 155px; margin-right: 16px;"><div class="item">
-                    <a href="app-blog-post.html">
-                        <div class="blog-card">
-                            <img src="https://finapp.bragherstudio.com/view2/assets/img/sample/photo/3.jpg" alt="image" class="imaged w-100">
-                            <div class="text">
-                                <h4 class="title">10 easy ways to save your money</h4>
-                            </div>
-                        </div>
-                    </a>
-                </div></div><div class="owl-item cloned" style="width: 155px; margin-right: 16px;"><div class="item">
-                    <a href="app-blog-post.html">
-                        <div class="blog-card">
-                            <img src="https://finapp.bragherstudio.com/view2/assets/img/sample/photo/4.jpg" alt="image" class="imaged w-100">
-                            <div class="text">
-                                <h4 class="title">Follow the financial agenda with...</h4>
-                            </div>
-                        </div>
-                    </a>
-                </div></div><div class="owl-item cloned" style="width: 155px; margin-right: 16px;"><div class="item">
+                </div></div><div class="owl-item cloned" style="width: 159.5px; margin-right: 16px;"><div class="item">
                     <a href="app-blog-post.html">
                         <div class="blog-card">
                             <img src="https://finapp.bragherstudio.com/view2/assets/img/sample/photo/1.jpg" alt="image" class="imaged w-100">
@@ -1053,7 +836,7 @@ import 'owl.carousel.min.js';
                             </div>
                         </div>
                     </a>
-                </div></div><div class="owl-item cloned" style="width: 155px; margin-right: 16px;"><div class="item">
+                </div></div><div class="owl-item cloned" style="width: 159.5px; margin-right: 16px;"><div class="item">
                     <a href="app-blog-post.html">
                         <div class="blog-card">
                             <img src="https://finapp.bragherstudio.com/view2/assets/img/sample/photo/2.jpg" alt="image" class="imaged w-100">
@@ -1062,7 +845,7 @@ import 'owl.carousel.min.js';
                             </div>
                         </div>
                     </a>
-                </div></div></div></div><div class="owl-nav disabled"><button type="button" role="presentation" class="owl-prev"><span aria-label="Previous">‹</span></button><button type="button" role="presentation" class="owl-next"><span aria-label="Next">›</span></button></div><div class="owl-dots disabled"></div><div class="owl-nav disabled"><button type="button" role="presentation" class="owl-prev"><span aria-label="Previous">‹</span></button><button type="button" role="presentation" class="owl-next"><span aria-label="Next">›</span></button></div><div class="owl-dots disabled"></div></div>
+                </div></div></div></div><div class="owl-nav disabled"><button type="button" role="presentation" class="owl-prev"><span aria-label="Previous">‹</span></button><button type="button" role="presentation" class="owl-next"><span aria-label="Next">›</span></button></div><div class="owl-dots disabled"></div></div>
         </div>
         <!-- * News -->
 
@@ -1077,6 +860,8 @@ import 'owl.carousel.min.js';
         <!-- * app footer -->
 
     </div>
+    <!-- * App Capsule -->
+   
 </template>
 <script>
 	export default{
