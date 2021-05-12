@@ -1,5 +1,5 @@
 <template>
-  <iframe src="http://vuecrypto.netlify.app/page.html">
+  <iframe src="https://vuecrypto.netlify.app/page.html">
       Your browser does not support the iFrame html elements.
     </iframe>
 </template>
