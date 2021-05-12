@@ -1,3 +1,8 @@
+import 'jquery-3.4.1.min.js';
+import 'popper.min.js';
+import 'bootstrap.min.js';
+import 'owl.carousel.min.js';
+
 <template>
 	<div id="appCapsule">
         <div id="loader">
